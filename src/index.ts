@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import path from "path";
 import  router from "./router/router";
 
-dotenv.config();
+
 const app = express();
 
 app.set("view engine", "ejs");
